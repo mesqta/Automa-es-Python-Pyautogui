@@ -13,4 +13,4 @@ pyautogui.write("notepad");sleep(1)
 pyautogui.press("enter");sleep(2)
 
 # Escrveer algo no bloco de notas
-pyautogui.write("Olá, Mundo!")
+pyautogui.write("Olá, Mundo!");sleep(1)

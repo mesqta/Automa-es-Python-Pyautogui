@@ -18,3 +18,11 @@ link = "https://github.com/mesqta"
 # Coloca o link no campo de pesquisa
 pyautogui.write(link);sleep(2)
 pyautogui.press("enter");sleep(1)
+
+
+'''
+    função sleep:
+        a função sleep  é usada para dar uma pausa na execução do programa por um tempo determinado,
+        permitindo assim que outras operações sejam executadas enquanto ele está dormindo.
+
+'''
