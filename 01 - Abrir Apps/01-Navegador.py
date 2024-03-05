@@ -10,6 +10,11 @@ Funções:
 # Abrir o windows
 pyautogui.press("win")
 # Digita o navegador de acordo com que o pc tem instalado
-pyautogui.write("Brave");sleep(2)
+pyautogui.write("Brave");sleep(1)
 # Abre o navegador
-pyautogui.press("enter")
+pyautogui.press("enter");sleep(1)
+# Coloca o site no campo de busca
+link = "https://github.com/mesqta"
+# Coloca o link no campo de pesquisa
+pyautogui.write(link);sleep(2)
+pyautogui.press("enter");sleep(1)
