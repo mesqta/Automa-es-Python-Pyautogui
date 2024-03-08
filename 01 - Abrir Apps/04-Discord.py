@@ -14,7 +14,7 @@ pyautogui.write("Brave");sleep(1)
 # Abre o navegador
 pyautogui.press("enter");sleep(1)
 # Coloca o site no campo de busca
-link = "https://discord.com/"
+link = "https://discord.com"
 # Coloca o link no campo de pesquisa
 pyautogui.write(link);sleep(2)
 pyautogui.press("enter");sleep(1)
